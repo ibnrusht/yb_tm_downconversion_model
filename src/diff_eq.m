@@ -1,4 +1,4 @@
-function dndt=diff_eq(t,n,temp,A_Tm_Yb,A_Tm_Yb_2,ph) % описание системы кинетических уравнений
+function dndt=diff_eq(t,n,temp,A_Tm_Yb,A_Tm_Yb_2,ph) % Г®ГЇГЁГ±Г Г­ГЁГҐ Г±ГЁГ±ГІГҐГ¬Г» ГЄГЁГ­ГҐГІГЁГ·ГҐГ±ГЄГЁГµ ГіГ°Г ГўГ­ГҐГ­ГЁГ©
 
 h_plank = 6.63*10^-34;
 c = 3*10^10;
@@ -12,14 +12,14 @@ ti = 5e-9;
 k = 1.38*10^(-23); % J/K - Boltzmann constant
 T = temp; % K - crystal temperature
 
-A_3H4 = 400; % было 527.31
-A_3F3 = 1343.99; % было 1343.99
+A_3H4 = 400;
+A_3F3 = 1343.99;
 A_2F52 = 400;
 A47 = A_Tm_Yb;
 A472 = A_Tm_Yb_2;
 MPR = 260000;
-dE54 = 1700; % 1700 bylo
-dE47 = 2300; % 3649 bylo
+dE54 = 1700;
+dE47 = 2300;
 dE472 = 2500;
 phonon = ph;
 
